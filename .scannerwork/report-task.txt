@@ -1,0 +1,7 @@
+organization=jurgon96
+projectKey=Jurgon96_Client-ServerCalidadSoftware
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.21481
+dashboardUrl=https://sonarcloud.io/dashboard?id=Jurgon96_Client-ServerCalidadSoftware
+ceTaskId=AXptxDp1Fw55s3dwYEgM
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AXptxDp1Fw55s3dwYEgM
