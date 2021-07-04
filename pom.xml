@@ -22,9 +22,9 @@
         <docker.image.prefix>${user.name}</docker.image.prefix>
         
 		<sonar.projectKey>Jurgon96_Client-ServerCalidadSoftware</sonar.projectKey>
-		<sonar.organization>jurgon96</sonar.organization>
-		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
-		<sonar.login>558e514b585ed7bf26dd6ef03f848edb24e9cb66</sonar.login>
+ 		<sonar.organization>calidadviu</sonar.organization>
+ 		<sonar.host.url>https://sonarcloud.io</sonar.host.url>
+		<sonar.login>b279d0419d782d562f13d45352b5ae31886c3010</sonar.login>
 
     </properties>
 
