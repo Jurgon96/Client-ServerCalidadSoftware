@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.29.0" timestamp="2021-07-05T22:31:09.534">
+<file name="C:\Users\Javier\eclipse-workspace\CalidadArtifactId\src\main\java\CalculatorClient\CalculatorClient.java">
+<violation beginline="16" endline="16" begincolumn="21" endcolumn="21" rule="EmptyStatementNotInLoop" ruleset="Error Prone" package="CalculatorClient" class="CalculatorClient" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_errorprone.html#emptystatementnotinloop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+<violation beginline="19" endline="19" begincolumn="9" endcolumn="23" rule="UselessParentheses" ruleset="Code Style" package="CalculatorClient" class="CalculatorClient" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="19" endline="19" begincolumn="30" endcolumn="44" rule="UselessParentheses" ruleset="Code Style" package="CalculatorClient" class="CalculatorClient" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="59" endline="59" begincolumn="9" endcolumn="37" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="CalculatorClient" class="CalculatorClient" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'java.lang.ArithmeticException' due to existing implicit import 'java.lang.*'
+</violation>
+</file>
+<file name="C:\Users\Javier\eclipse-workspace\CalidadArtifactId\src\main\java\CalculatorServer\CalculatorServer.java">
+<violation beginline="17" endline="17" begincolumn="17" endcolumn="20" rule="UnusedPrivateField" ruleset="Best Practices" package="CalculatorServer" class="CalculatorServer" variable="port" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_bestpractices.html#unusedprivatefield" priority="3">
+Avoid unused private fields such as 'port'.
+</violation>
+<violation beginline="38" endline="38" begincolumn="9" endcolumn="23" rule="UselessParentheses" ruleset="Code Style" package="CalculatorServer" class="CalculatorServer" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="38" endline="38" begincolumn="30" endcolumn="44" rule="UselessParentheses" ruleset="Code Style" package="CalculatorServer" class="CalculatorServer" method="main" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="C:\Users\Javier\eclipse-workspace\CalidadArtifactId\src\main\java\Calculator\Calculator.java">
+<violation beginline="9" endline="9" begincolumn="18" endcolumn="30" rule="UnnecessaryModifier" ruleset="Code Style" package="Calculator" class="Calculator" variable="VariableDeclaratorId" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifiers 'public final' on field 'pepe': the field is declared in an interface type
+</violation>
+<violation beginline="11" endline="12" begincolumn="12" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="Calculator" class="Calculator" method="add" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'add': the method is declared in an interface type
+</violation>
+<violation beginline="14" endline="15" begincolumn="12" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="Calculator" class="Calculator" method="sub" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'sub': the method is declared in an interface type
+</violation>
+<violation beginline="17" endline="18" begincolumn="12" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="Calculator" class="Calculator" method="mul" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'mul': the method is declared in an interface type
+</violation>
+<violation beginline="20" endline="21" begincolumn="12" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="Calculator" class="Calculator" method="div" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'div': the method is declared in an interface type
+</violation>
+<violation beginline="23" endline="24" begincolumn="9" endcolumn="33" rule="UnnecessaryModifier" ruleset="Code Style" package="Calculator" class="Calculator" method="negativo" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#unnecessarymodifier" priority="3">
+Unnecessary modifier 'public' on method 'negativo': the method is declared in an interface type
+</violation>
+</file>
+<file name="C:\Users\Javier\eclipse-workspace\CalidadArtifactId\src\main\java\Server\tcpServer.java">
+<violation beginline="7" endline="7" begincolumn="1" endcolumn="23" rule="DuplicateImports" ruleset="Code Style" package="Server" class="tcpServer" externalInfoUrl="https://pmd.github.io/pmd-6.29.0/pmd_rules_java_codestyle.html#duplicateimports" priority="4">
+Avoid duplicate imports such as 'java.net.Socket'
+</violation>
+</file>
+</pmd>

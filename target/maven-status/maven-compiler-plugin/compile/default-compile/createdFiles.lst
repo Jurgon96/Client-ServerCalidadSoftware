@@ -1,0 +1,6 @@
+Server\tcpServer.class
+Cliente\tcpClient.class
+Calculator\CalculatorImpl.class
+CalculatorClient\CalculatorClient.class
+CalculatorServer\CalculatorServer.class
+Calculator\Calculator.class
