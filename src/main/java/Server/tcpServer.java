@@ -27,7 +27,6 @@ class tcpServer {
 	int port;
 	ServerSocket server_socket;
 	BufferedReader input;
-	
 	try { 
 	    port = Integer.parseInt(args[0]);
 	}
@@ -35,7 +34,6 @@ class tcpServer {
 	    System.out.println("port = 1500 (default)");
 	    port = 1500;
 	}
-
 	try {
 	    
 	    server_socket = new ServerSocket(port);
@@ -50,29 +48,25 @@ class tcpServer {
 				   ":" + socket.getPort());
 		input = new BufferedReader(new InputStreamReader(socket.getInputStream())); 
 		// print received data 
-		try {
-		    while(true) {
-			String message = input.readLine();
-			if (message==null) break;
-			System.out.println(message);
-		    }
-		}
-		catch (IOException e) {
-		    System.out.println(e);
-		}
-		
-		// connection closed by client
-		try {
-		    socket.close();
-		    System.out.println("Connection closed by client");
-		}
-		catch (IOException e) {
-		    System.out.println(e);
-		}
-		
-	    }
-	    
-	    
+			try {
+				while(true) {
+				String message = input.readLine();
+				if (message==null) break;
+				System.out.println(message);
+				}
+			}
+			catch (IOException e) {
+				System.out.println(e);
+			}
+			// connection closed by client
+			try {
+				socket.close();
+				System.out.println("Connection closed by client");
+			}
+			catch (IOException e) {
+				System.out.println(e);
+			}
+	    } 
 	}
 	
 	catch (IOException e) {

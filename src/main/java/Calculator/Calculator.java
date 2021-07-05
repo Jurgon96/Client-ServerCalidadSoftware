@@ -6,7 +6,6 @@
 package Calculator;
 public interface Calculator 
     extends java.rmi.Remote {
-    public final int pepe = 2;
 
     public long add(long a, long b)
 	throws java.rmi.RemoteException;

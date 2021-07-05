@@ -32,11 +32,11 @@ public class CalculatorClient {
 
 	    Calculator c = (Calculator) 
 		Naming.lookup("rmi://" + host + ":" + port+ "/CalculatorService");
-	    System.out.println( c.sub(4, 3) );
-	    System.out.println( c.add(4, 5) );
-	    System.out.println( c.mul(3, 6) );
-	    System.out.println( c.div(9, 3) );
-		System.out.println( c.negativo(9) );
+	    System.out.println(c.sub(4, 3));
+	    System.out.println(c.add(4, 5));
+	    System.out.println(c.mul(3, 6));
+	    System.out.println(c.div(9, 3));
+		System.out.println(c.negativo(9));
 	}
 	catch (MalformedURLException murle) {
 	    System.out.println();
