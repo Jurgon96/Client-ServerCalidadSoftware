@@ -18,32 +18,32 @@ public class CalculatorImpl
 	super();
     }
 
-    public long add(long a, long b)
+    public long add(final long a,final  long b)
 	throws java.rmi.RemoteException {
 	System.out.println("Sumando " + a + " " + b);
 	return a + b;
     }
 
-    public long sub(long a, long b)
+    public long sub(final long a,final long b)
 	throws java.rmi.RemoteException {
 	System.out.println("Restando " + a + " " + b);
 	return a - b;
     }
 
-    public long mul(long a, long b)
+    public long mul(final long a,final long b)
 	throws java.rmi.RemoteException {
 	System.out.println("Multiplicando " + a + " " + b);
 	return a * b;
     }
 
-    public long div(long a, long b)
+    public long div(final long a,final long b)
 	throws java.rmi.RemoteException {
 	System.out.println("Dividiendo " + a + " " + b);
 
 	return a / b;
     }
 	
-	public long negativo(long a)
+	public long negativo(final long a)
 	throws java.rmi.RemoteException {
 	System.out.println(")Invirtiendo numero " + a);	
 		return a*(-1);
